@@ -1,6 +1,14 @@
 .App {
   text-align: center;
+  background-color: #f8f8f8;
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  font-size: 14px;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +43,245 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.spinner {
+  width: 200px;
+  height: auto;
+}
+
+.select-treatment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.select-container {
+  background-color: white;
+  margin-top: 1px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  padding: 20px;
+  text-align: left;
+  
+}
+
+
+.select-container label {
+  margin-right: 30px;
+}
+
+.select-treatment,
+.buttons-container,
+.stats {
+  padding: 30px;
+}
+
+
+.stats {
+  display: flex;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  margin-bottom: 30px;
+  color: #1f2532;
+}
+
+.stats .stats__column {
+  flex: 1;
+}
+
+.stats__column .stats__details {
+  text-align: left;
+  padding: 16px 4px;
+  /* border-bottom: 1px solid #d7d7d8; */
+  
+  /* border-left: 10px solid white; */
+}
+
+.stats__column .stats__details:first-child {
+  padding-top:0;
+}
+
+
+.rate-container {
+  position: relative;
+}
+
+select {
+  width: 300px;
+  /* margin-bottom: 10px; */
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #d7d7d8;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  color: #1f2532;
+  background-color: white;
+  transition: border 0.6s ease-in-out;
+}
+
+.g-select__container {
+  display: inline-table;
+  position: relative;
+  width: 60%;
+  margin-right: 20px;
+}
+
+.g-select__arrow {
+  position: absolute;
+  z-index: 1;
+  right: 8px;
+  top: 6px;
+  pointer-events: none;
+
+}
+
+.cards__container {
+  display: flex;
+  width: 100%;
+}
+
+.card {
+  flex: 1;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  padding: 16px;
+  text-align: left;
+}
+
+.card__title {
+  font-weight: bold;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #d7d7d8;
+  margin-bottom: 10px;
+}
+
+.card__cycle,
+.card__pregnancy-rate,
+.card__birth-rate,
+.card__rate-title,
+.card__rate {
+  margin-bottom: 10px;
+} 
+
+.card__cycle {
+  display: flex;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #d7d7d8;
+}
+
+.card__cycle-data {
+  /* background-color: #08394a; */
+  color: #08394a;
+  font-weight: bold;
+}
+
+.card__cycle-title {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.card__rate-data-container {
+  background-color: #f2fafb;
+  border-radius: 8px;
+}
+
+.card__rate {
+  padding: 0 0 10px;
+  border-bottom: 1px solid #d7d7d8;
+}
+
+.card__rate-title {
+  font-weight: bold;
+}
+
+.card__rate-data {
+  background-color: #04cac7;
+  border-radius: 8px;
+  height: 10px;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card__rate-data--green {
+  background-color: #08394a;
+}
+
+.card__rate-data--orange {
+  background-color: #be552e;
+}
+
+.card__rate-percentage {
+  margin-bottom: 5px;
+  color: #08394a;
+  font-weight: bold;
+}
+
+.card__rate-data:hover {
+  opacity: 0.7;
+}
+
+.cart__rate--border-bttm-0 {
+  border-bottom: none;
+}
+
+.stats-top__conatiner-title h2 {
+  margin:0;
+}
+
+.stats-top__conatiner-title {
+  background-color: white;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  margin-bottom: 1px;
+  text-align: left;
+}
+
+.stats-top__patients {
+  font-weight: bold;
+  color: #08394a;
+}
+
+.g-select__label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #08394a;
+}
+
+button {
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  padding: 0.5em 2em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out,
+    color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  cursor: pointer;
+  line-height: 1;
+  background-color: #08394a;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  opacity: 1;
+}
+
+button:hover {
+  /* background-color: #04cac7; */
+  opacity: 0.7;
+}
+
+.form-container {
+  display: flex;
+}
+
+form,
+.birth-container {
+  flex: 1;
 }

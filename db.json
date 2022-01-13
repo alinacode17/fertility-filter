@@ -1,0 +1,56 @@
+{
+  "fertilityCalculatorResultsAll": {
+    "totalPatients": 4386,
+    "treatmentsCyclesStarted": {
+      "Cycles": 6175,
+      "PregnancyRate": "55.0%",
+      "LiveBirthRate": "42.3%"
+    },
+    "eggCollectionCycles": {
+      "Cycles": 6007,
+      "PregnancyRate": "56.6%",
+      "LiveBirthRate": "43.5%"
+    },
+    "embrioTransferCycles": {
+      "Cycles": 5624,
+      "PregnancyRate": "60.4%",
+      "LiveBirthRate": "46.5%"
+    }
+  },
+  "fertilityCalculatorResultsObs2": {
+    "totalPatients": 3000,
+    "treatmentsCyclesStarted": {
+      "Cycles": 4000,
+      "PregnancyRate": "20.0%",
+      "LiveBirthRate": "5.3%"
+    },
+    "eggCollectionCycles": {
+      "Cycles": 6007,
+      "PregnancyRate": "6.6%",
+      "LiveBirthRate": "10.5%"
+    },
+    "embrioTransferCycles": {
+      "Cycles": 5624,
+      "PregnancyRate": "80.4%",
+      "LiveBirthRate": "70.5%"
+    }
+  },
+  "fertilityCalculatorResultsObs": {
+    "totalPatients": 7000,
+    "treatmentsCyclesStarted": {
+      "Cycles": 7700,
+      "PregnancyRate": "80.0%",
+      "LiveBirthRate": "25.3%"
+    },
+    "eggCollectionCycles": {
+      "Cycles": 6007,
+      "PregnancyRate": "86.7%",
+      "LiveBirthRate": "80.5%"
+    },
+    "embrioTransferCycles": {
+      "Cycles": 5624,
+      "PregnancyRate": "90.4%",
+      "LiveBirthRate": "60.5%"
+    }
+  }
+}

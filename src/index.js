@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { FertilityCalculatorProvider } from './context/FertilityCalculatorContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FertilityCalculatorProvider>
+      <App />
+    </FertilityCalculatorProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
